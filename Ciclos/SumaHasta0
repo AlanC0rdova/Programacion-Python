@@ -1,0 +1,16 @@
+#Alan Adrian Cordova Vazquez 250199
+#Programa que regristra numeros hasta pedir 0
+
+suma = 0 
+contar = 0 
+n = int(input(f"Ingresa un numero para sumar hasta ungresar 0:"))
+
+while n != 0: #!n != "0" significa que el ciclo se repetira hasta que se ingrese 0
+    suma += n
+    contar+=1 #acumulador para contar la cantidad de numeros ingresados
+    #+1 significa que se sumara 1 cada vez que se ingrese un numero
+    n = int(input("Ingrese otro numero (0 para terminar): "))
+
+print(f"Se ingresaron {contar} numeros")
+print(f"La suma de los numeros es: {suma}")
+    
